@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="np.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+         rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <main>
+            <div class="top container-fluid">
+               <div class="navbar">
+                    <nav class="navbar ">
+                            <span id="name" class="navbar-brand h1">Emmanuel Anokwuru<p id="sub-name">Software Developer, Information Engineering Student</p></span>
+                                <ul class="nav justify-content-end fixed-top">
+                                    <li class="nav-item"><a class="nav-link" href="#about-me">about</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#projects">projects</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#portfolio">resume</a></li>
+                                 </ul>
+                        </nav>
+                    </div>
+            </div>
+
+            <div class="hRules">
+                <hr id="firstRule">
+                <hr id="secondRule">
+                <hr id="thirdRule">
+            </div>
+        
+
+          <div id="about-me"class="container">
+            <h2>About me</h2>
+                <h3>Hi! I'm Emmanuel Anokwuru</h3>
+                <p id="statement">
+                    I am currently studying Information Engineering at Hamburg University of Applied Sciences, Hamburg, Germany. Aside tech, I am also a lover of languages.
+                     I speak fluent Mandarin and now on the journey of acquiring German. I think I'll go for French when that is done. Have you got suggestions? Let me hear them. If you want
+                    to see more interesting things, take a look at my projects, I'm sure you'd like them.</p>
+            </div>
+        
+
+            <hr>
+            <div id="projects" class="projects container">
+                <h2>Projects</h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <img src="/train.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Train</h5>
+                          <p class="card-text">Train was made completely with Java. It is a colorful graphic design of a train station that conceptualizes Java fundamentals and state design pattern. </p>
+                          <a href="https://github.com/Akaa-Dev/Train" class="btn btn-primary col-12">See source code</a>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <img src="/maths_game.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Maths Game</h5>
+                          <p class="card-text">Maths game is an exciting game that tests one's knowledge of simple multiplication. </p>
+                          <a href="https://github.com/Akaa-Dev/mathsGame" class="btn btn-primary col-12">See source code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+
+            <hr>
+
+            <div id="contact"class="contact container-fluid">
+               <div class="contact-msg">
+                   <h2 class="contact-msg">Let's get in touch</h2>
+                   <p class="contact-msg">I'd love to hear from you.You can send me a message directly using this form and you will hear from me as soon as possible.</p>
+                     <p class="contact-msg">Or just add me up on any or all the following social platforms.
+                    </p>
+               </div>
+                <form action="https://formspree.io/f/mgerqrod" method="POST">
+                    <div class="row g-3">
+                        <div class="col col-6">
+                          <input id= "name-space"type="text" class="form-control form-control-sz" placeholder="Name" aria-label="Name" name="name">
+                        </div>
+                        <div class="col col-6">
+                          <input id= "email-space" type="email" class="form-control form-control-sz " placeholder="Email Address" aria-label="Email" name="_replyto">
+                        </div>
+                        <div class="col-12">
+                            <textarea id="message-body" type="text" class="form-control" placeholder="Write your message..." aria-label="Message" name="message"></textarea>
+                          </div>
+                          <div class="d-grid gap-2 col-6 mx-auto col-13">
+                            <button type="submit" class="btn btn-danger">Send</button>
+                          </div>
+                      </div>
+                </form>
+            </div>
+        
+
+        </main>
+        
+    </body>
+
+</html>
