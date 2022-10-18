@@ -1,196 +1,98 @@
 body{
     font-family:rosemary;
     font-size: 20px;
-   /* background:linear-gradient(105deg,#CCFFFF, #FFCCCC);*/
-   
-   /*background: linear-gradient(35deg,#809e98,#6c567a,#33280C,#302B36);*/
-
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.top{
-    background-image:url(/postsdamer_platz.jpg);
-    height: 600px;
-    background-position: center;
+
+.dark{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+
+#topDisplay{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-image:url("./images/cool-background.png");
+    height: 26rem;
+    background-color: black;
     background-size:cover;
+    background-blend-mode: normal;
 }
-
-img{
-    width:625px;
-    height: 400px;
+#introPhoto{
+    margin-top: -5em;
+}
+#introText{
+    margin-top: 6em;
+}
+#mePhoto{
+    width:45rem;
+    height:30rem;
 }
 
 h1{
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 5px;
+    letter-spacing: 0.1em;
     color: azure;
     font-size: 30px;
 }
-#firstRule{
-    color: rgb(0, 0, 0);
-    width: 100px;
-    position: relative;
-    margin-left: 47%;
+#aboutMe{
+    display: flex;
+    justify-content: space-around;
+    height: 29em;
+    color: azure;
+    margin-top: 2rem;
 }
-#secondRule{
-    color: rgb(0, 0, 0);
-    width: 200px;
-    position: relative;
-    margin-left: 43%;
+.frame{
+    border:1px solid #f8910a;
 }
-#thirdRule{
-    color: rgb(0, 0, 0);
-    width: 400px;
-    position: relative;
-    margin-left: 35%;
+#aboutMePhoto{
+    margin-top: 25px;
+}
+#aboutMeText{
+    margin-top: 25px;
 }
 
-h2{
-    font-family: cursive;
-    text-align: center;
-    color: rgb(228, 76, 76);
-    text-decoration:underline;
-}
-#about-me{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.hRules{
-    position:sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
-/*li{
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    left: 850px;
-    margin-right: 10px;
-    color: #5C190F;
-}
-li:hover{
-    background: #6c7478;
-    opacity: 0.7;
-    transform: scale(1.3)
-}*/
-a{
-    color: rgb(173, 23, 48);
-}
 a:visited{
-    color: #6c567a;
-}
-
-/*.navbar{
-    background:#BBc7c7;
-}*/
-
-p{
-    text-align: center;
-    color: rgb(14, 4, 4);
-}
-
-
-#name{
-    font-size: 50px;
-    font-family:cursive;
-    color: #d32a00;
-}
-#sub-name{
-    font-size: 20px;
-    color: #5a2d03;
+    color: #eceaee;
 }
 .nav-item .nav-link{
     color: #f8910a;
 }
-.contact{
-    background: rgb(43, 42, 42);
-    height: 400px;
-} 
-.contact-msg {
-    text-align: center;
-    color: azure;
-    line-height: 10px;
+#contact{
+   background-color: rgba(0, 0, 0, 0.649);
+   margin-top: 3rem;
 }
-.contact-msg h2{
-    margin-bottom:40px;
-    padding-top: 30px;
+#contact h2{
+    text-align: center;
+}
+#form_n_social{
+    display:flex;
+    justify-content: center;
+}
+
+#contact-form{
+    width: 35rem;
+}
+#socials{
+    width: 35rem;
+    margin: 2rem 5rem;
+}
+#socials div{
+    margin-bottom: 1rem;
 }
 textarea{
-    width: 50px;
+    height: 6rem;
 }
-@media screen and (min-width: 1000px) {     
-    #email-space{
-    margin-left: -76px;
-    }
-}
-#email-space{
-    margin-left: 7%;
-}
-#name-space{
-    margin-left: 50.5%;  
-  }
+
 #message-body{
-    height: 150px;
-    width: 800px;
-    margin-left: 25%;
     background-color: rgba(255, 248, 248, 0.925);
 }
-.form-control.form-control-sz{
-    width:395px;
-    background-color: beige;
-   
-}
-.btn{
-    width:800px;
-    
-}
-/*input{
-    width: 30%;
-    height: 40px;
-    background: linear-gradient(35deg,white,white);
-    border: 2px gray solid;
-}
-.move{
-    position: relative;
-    left: 190px;
-}
 
-.label1{
-    ruby-position: inline;
-    bottom: 25px;
-}
-
-.label3{
-    position: relative;
-    left: 275px;
-    bottom: 50px;
-}
-
-
-textarea{
-    width:30%;
-    height: 150px;
-    position: relative;
-    left: 277px;
-    margin-top: 10px;
-    background: linear-gradient(105deg,white,white);
-    border: 2px gray solid;
-}
-button{
-    position: relative;
-    left: 370px;
-    border: 2px solid black;
-    border-radius: 200px;
-    width: 15%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color:#090019 ;
-    background: linear-gradient(75deg,gray,white);
-}*/
 
 footer{
-    margin-top: 50px;
-    opacity: 0.5;
-
+    margin-top: 3em;
+    opacity: 0.8;
 }
 
 footer:hover{
