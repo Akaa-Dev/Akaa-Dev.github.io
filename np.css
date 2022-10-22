@@ -47,12 +47,17 @@ h1{
     border:1px solid #f8910a;
 }
 #aboutMePhoto{
-    margin-top: 25px;
+    margin-top: 5em;
 }
-#aboutMeText{
-    margin-top: 25px;
+#aboutMeText h2, p{
+    margin-top: 1rem;
 }
-
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    color: #f8910a;
+}
 a:visited{
     color: #eceaee;
 }
@@ -89,7 +94,6 @@ textarea{
     background-color: rgba(255, 248, 248, 0.925);
 }
 
-
 footer{
     margin-top: 3em;
     opacity: 0.8;
@@ -97,4 +101,21 @@ footer{
 
 footer:hover{
     color: white;
+}
+.cardSize{
+    width: 25rem; 
+    height: 28rem
+}
+.btn.proBtn{
+   background-color: #435058;
+}
+.btn.gitBtn{
+    background-color: #5FAD56;
+}
+#aboutMeText li{
+    list-style: none;
+    margin-left: -2rem;
+}
+#cvBtn {
+    background-color: #84A7DF;
 }

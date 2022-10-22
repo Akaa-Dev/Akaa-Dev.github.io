@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My Portfolio</title>
   <meta charset="utf-8" />
@@ -9,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/572a6aaa5d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body class="dark">
@@ -42,8 +44,8 @@
       <h1>Hi there,</h1>
       <h1>I'm Emmanuel Anokwuru</h1>
       <p>Software Developer, Information Engineering Student</p>
-      <button class="btn btn-samll btn-warning col-3" type="submit">
-        Contact Me
+      <button class="btn btn-samll btn-success col-3" type="submit">
+      <a href="#contact">Contact Me</a>  
       </button>
     </div>
     <div id="introPhoto">
@@ -51,10 +53,10 @@
     </div>
   </div>
 
-  <section id="aboutMe" class="dark">
+  <section id="aboutMe" class="container dark">
     <div id="aboutMePhoto">
-      <img src="./images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg" class="rounded frame" alt="" width="500px" height="350px"
-        srcset="" />
+      <img src="./images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg" class="rounded frame" alt="" width="500px"
+        height="350px" srcset="" />
     </div>
     <div id="aboutMeText">
       <h2>About me</h2>
@@ -70,7 +72,7 @@
         suggestions? Let me hear them. If you want to see more interesting<br />
         things, take a look at my projects, I'm sure you'd like them.
       </p>
-      <h4>Key Competences</h4>
+      <h4>Key Skills</h4>
       <ul>
         <li>JavaScript</li>
         <li>Java</li>
@@ -78,127 +80,14 @@
         <li>MongoDb</li>
         <li>MySql</li>
       </ul>
-      <button class="btn btn-primary">View My CV</button>
+      <button id="cvBtn" class="btn" disabled>View My CV</button>
     </div>
   </section>
 
   <section id="projects" class="projects container dark">
     <h2 class="mt-2 mb-4">My Projects</h2>
-    <div class="row">
-      <div class="col col-sm-4 mb-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/train.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Train</h5>
-            <p class="card-text">
-              Train was made completely with Java. It is a colorful graphic
-              design of a train station that conceptualizes Java fundamentals
-              and state design pattern.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/Train">See code on Github</a>
-            </button>
-          </div>
-        </div>
+    <div class="row" id="projectsPanel">
       </div>
-      <div class="col col-sm-4 mb-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/maths_game.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Maths Game</h5>
-            <p class="card-text">
-              Maths game is an exciting game that tests one's knowledge of
-              simple multiplication.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/mathsGame">See code on Github</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/train.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Train</h5>
-            <p class="card-text">
-              Train was made completely with Java. It is a colorful graphic
-              design of a train station that conceptualizes Java fundamentals
-              and state design pattern.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/Train">See code on Github</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-4 mb-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/train.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Train</h5>
-            <p class="card-text">
-              Train was made completely with Java. It is a colorful graphic
-              design of a train station that conceptualizes Java fundamentals
-              and state design pattern.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/Train">See code on Github</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-4 mb-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/train.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Train</h5>
-            <p class="card-text">
-              Train was made completely with Java. It is a colorful graphic
-              design of a train station that conceptualizes Java fundamentals
-              and state design pattern.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/Train">See code on Github</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-4 mb-4">
-        <div class="card" style="width: 25rem; height: 27rem">
-          <img src="./images/train.png" class="card-img-top" alt="..." />
-          <div class="card-body dark">
-            <h5 class="card-title">Train</h5>
-            <p class="card-text">
-              Train was made completely with Java. It is a colorful graphic
-              design of a train station that conceptualizes Java fundamentals
-              and state design pattern.
-            </p>
-          </div>
-          <div class="btn-group">
-            <button class="btn btn-warning">Go to Project</button>
-            <button class="btn btn-primary">
-              <a href="https://github.com/Akaa-Dev/Train">See code on Github</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <section id="contact" class="container dark">
@@ -208,12 +97,12 @@
         <form action="https://formspree.io/f/mgerqrod" method="POST">
           <div class="mb-3">
             <label for="name-space" class="form-label">Your Name</label>
-            <input id="name-space" type="text" class="form-control" placeholder="Name" aria-label="Name" name="name" />
+            <input id="name-space" type="text" class="form-control" placeholder="Name" aria-label="Name" name="name" required/>
           </div>
           <div class="mb-3">
             <label for="email-space" class="form-label">Your Email</label>
             <input id="email-space" type="email" class="form-control" placeholder="Email Address" aria-label="Email"
-              name="_replyto" />
+              name="_replyto" required/>
           </div>
           <div class="mb-3">
             <label for="message-body" class="form-label">Message</label>
@@ -239,8 +128,11 @@
     </div>
   </section>
   <footer>&copy; Akaa-Dev</footer>
+  <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+  
 </body>
+
 </html>
