@@ -125,9 +125,10 @@ No media query for `xs` since this is the default in Bootstrap
 *****************************************************/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media screen and (max-width: 575.98px) { 
+@media screen and (min-width: 390px) { 
     #topDisplay{
         max-width: fit-content;
+        background-color: #eceaee;
     }
  }
 
