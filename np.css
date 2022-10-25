@@ -58,7 +58,7 @@ button a{
 button a:hover{
     color: #f8910a;
 }
-button a, a:visited{
+.navabar-brand, button a, a:visited{
     color: #eceaee;
 }
 .nav-item .nav-link{
@@ -119,3 +119,42 @@ footer:hover{
 #cvBtn {
     background-color: #84A7DF;
 }
+/**************Media Queries*************
+ X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*****************************************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) { 
+    #topDisplay{
+        width :  575.98px
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) { 
+    #topDisplay{
+        width : 767.98px
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 991.98px) { 
+    #topDisplay{
+        width : 991.98px
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1199.98px) { 
+    #topDisplay{
+        width : 1199.98px
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1399.98px) { 
+    #topDisplay{
+        width : 1399.98px
+    }
+ }
