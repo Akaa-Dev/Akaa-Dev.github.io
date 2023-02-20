@@ -69,7 +69,7 @@ button a{
 button a:hover{
     color: #f8910a;
 }
-a:visited{
+.navabar-brand, button a, a:visited{
     color: #eceaee;
 }
 .nav-item .nav-link{
