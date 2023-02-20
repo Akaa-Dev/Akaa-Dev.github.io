@@ -1,0 +1,138 @@
+/**
+ * Basic CSS Media Query Template
+ * TODO: I should probably use Sass...
+ * Author: Michael Vieth
+ * ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+ @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+ @media all and (min-width: 390px) and (max-width: 1024px) {
+    html, body{
+      width:100%;
+      position:absolute;
+    }
+    #topDisplay{
+        display: inline-block;
+ 
+        width: 100%;
+        height: fit-content;
+    }
+    #introPhoto{
+        margin-top: -8.3rem;
+    }
+    #introText{
+        margin-top:1rem;
+        margin-left: 1em;
+       
+        font-size: small;
+    }
+    #introText h1{
+        color: azure;
+        font-size: 1.5em;
+    }    
+    #mePhoto{
+        width:30rem;
+        height:22rem;
+    }
+   
+    .icon-bar {
+        background-color:transparent;
+        border:1px solid #f8910a;
+        display: block;
+        border-radius: 1px;
+        margin-top: 5px;
+    }
+    #aboutMe{
+        display:inline-block;
+        justify-content: center;
+        height: max-content;
+        color: azure;
+        width: 100%;
+        margin-left: 2%;
+       
+    }
+    #aboutMeText br{
+        display: none;
+    }
+    #aboutMePhoto img{
+        width:22em;
+        height:12em;
+        margin: -5em 1em 0 1em;
+    }
+    #projects{
+        width: 100%;
+        margin-left: 1.5em;
+        margin-top: 2em;
+    }
+    .cardSize{
+        width: 21rem; 
+        height: 26.5rem
+    }
+    #form_n_social{
+        display:inline-block;     
+        width: 100%;
+        
+    }
+    .mb-3 +.mt-3{
+        width: 60%;
+      
+        
+    }
+    .mb-3{
+        width: 60%;
+        
+    }
+    #socials{
+    width: 100%;
+       margin: 1.5rem 0 0 0 ;
+    }
+    #contact{
+        width: 100%;
+    }
+  }
+ 
+ @media all and (min-width: 480px) and (max-width: 768px) { }
+ 
+ @media all and (max-width: 480px) { }
+ 
+ 
+ /* Portrait */
+ @media screen and (orientation:portrait) { /* Portrait styles here */ }
+ /* Landscape */
+ @media screen and (orientation:landscape) { /* Landscape styles here */ }
+ 
+ 
+ /* CSS for iPhone, iPad, and Retina Displays */
+ 
+ /* Non-Retina */
+ @media screen and (-webkit-max-device-pixel-ratio: 1) {
+ }
+ 
+ /* Retina */
+ @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (-o-min-device-pixel-ratio: 3/2),
+ only screen and (min--moz-device-pixel-ratio: 1.5),
+ only screen and (min-device-pixel-ratio: 1.5) {
+ }
+ 
+ /* iPhone Portrait */
+ @media screen and (max-device-width: 480px) and (orientation:portrait) {
+ } 
+ 
+ /* iPhone Landscape */
+ @media screen and (max-device-width: 480px) and (orientation:landscape) {
+ }
+ 
+ /* iPad Portrait */
+ @media screen and (min-device-width: 481px) and (orientation:portrait) {
+ }
+ 
+ /* iPad Landscape */
+ @media screen and (min-device-width: 481px) and (orientation:landscape) {
+ }

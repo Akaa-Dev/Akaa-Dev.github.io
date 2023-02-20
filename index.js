@@ -59,6 +59,8 @@ const makeBtnGroup = (project) => {
   const gitLinkBtn = document.createElement("button");
   const pageLink = document.createElement("a");
   const gitLink = document.createElement("a");
+  pageLink.classList.add("btn-text");
+  gitLink.classList.add("btn-text");
   projBtns.className = "btn-group";
   pageLink.href = `${project.link}`;
   pageLink.innerText = "Go to Project";

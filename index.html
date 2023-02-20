@@ -7,6 +7,7 @@
   <meta lang="en" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="np.css" />
+  <link rel="stylesheet" href="mediaQuery.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/572a6aaa5d.js" crossorigin="anonymous"></script>
@@ -17,9 +18,14 @@
   <nav class="navbar navbar-expand-lg dark sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Akaa-Dev</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          
+        </span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
@@ -55,8 +61,7 @@
 
   <section id="aboutMe" class="container dark">
     <div id="aboutMePhoto">
-      <img src="./images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg" class="rounded frame" alt="" width="500px"
-        height="350px" srcset="" />
+      <img src="./images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg" class="rounded frame" alt="" srcset="" />
     </div>
     <div id="aboutMeText">
       <h2>About me</h2>
@@ -109,14 +114,12 @@
             <textarea id="message-body" type="text" class="form-control" placeholder="What would you like tell me?"
               aria-label="Message" name="message"></textarea>
           </div>
-          <button type="submit" class="btn btn-success col-12 mt-3">
-            Send
-          </button>
+          <button type="submit" class="btn btn-success col-12 mt-3"> Send </button>
         </form>
       </div>
       <div id="socials">
         <p class="contact-msg">
-          I'd love to hear from you.You can send me a message directly using
+          I'd love to hear from you. You can send me a message directly using
           this form and you will hear from me as soon as possible
           or just add me up on any or all the following social platforms.
         </p>
